@@ -1,0 +1,206 @@
+* {
+    /* border: solid 1px red; */
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.main {
+    margin: 100px 150px;
+}
+
+p  {
+    margin: 0;
+    padding: 0;
+}
+
+.icon-nav {
+    font-size: 30px;
+    color: red;
+    margin-right: 10px;
+}
+
+.main-video-box {
+    width: 100%;
+    padding: 1px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-video {
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.profile-picture-video {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.btn-main-video, .like-dislike{
+    background-color: rgb(243, 243, 243);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.btn-like-dislike {
+    margin: 0 5px;
+    border: none;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-video-box {
+    width: 100%;
+    padding: 1px;
+    overflow: hidden;
+    display: flex;
+}
+
+.side-video {
+    height: 100%;
+    width: 50%;
+    margin: 10px 0;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.text-video {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title-side-video {
+    font-size: 15px;
+}
+
+.desc-side-video {
+    font-size: 10px;
+}
+
+.search-input {
+    padding: 5px 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+}
+
+
+.search-bar {
+    border: none;
+    display: flex;
+    justify-self: center;
+    width: 600px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.top-right-icon {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.btn-no-border {
+    border: none;
+    background-color: white;
+}
+
+.grey-icon {
+    color: grey;
+}
+
+.main-video-description {
+    margin-top: 25px;
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+}
+
+.main-video-comments {
+    margin-top: 25px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.main-video-comments .profile-picture-video {
+    margin-right: 10px;
+}
+
+.give-comment {
+    width: 90%; 
+    border-top: rgb(232, 232, 232); 
+    border-left: 0; 
+    border-right: 0;
+}
+
+.comment-unit-section {
+    margin-top: 30px;
+}
+
+.user-profile-comment {
+    font-size: medium;
+}
+
+.comment {
+    font-size: small;
+}
+
+.user-profile-comment span {
+    font-size: small;
+    color: grey;
+}
+
+.horizontal-scroll {
+    display: flex; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+    gap: 10px; 
+}
+
+.item {
+    flex: 0 0 auto; 
+    height: 100px; 
+    margin-right: 20px; 
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.horizontal-scroll button {
+    background-color: rgb(243, 243, 243);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-right: 5px;
+}
